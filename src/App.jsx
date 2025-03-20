@@ -6,8 +6,8 @@ import AddMedicine from "./AddMedicine";
 
 function HomePage() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 p-6">
-      <h1 className="text-2xl font-bold text-gray-800 mb-4">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-pastelPink p-6">
+      <h1 className="text-3xl font-bold text-gray-800 mb-6">
         Hello, we hope you are doing okay! 🙂
       </h1>
 
@@ -15,18 +15,18 @@ function HomePage() {
       <input
         type="text"
         placeholder="Search..."
-        className="w-64 p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400 mb-4"
+        className="w-72 p-3 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-pastelPurple bg-pastelWhite mb-6 shadow-md"
       />
 
       {/* Buttons */}
-      <div className="flex gap-4 mb-4">
+      <div className="flex gap-4 mb-6">
         <Link to="/daily">
-          <button className="px-6 py-2 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-600">
+          <button className="px-6 py-3 bg-pastelPurple text-gray-900 font-semibold rounded-full shadow-lg hover:bg-pastelPinkDark transition">
             Daily
           </button>
         </Link>
         <Link to="/weekly">
-          <button className="px-6 py-2 bg-green-500 text-white font-semibold rounded-lg shadow-md hover:bg-green-600">
+          <button className="px-6 py-3 bg-pastelPurple text-gray-900 font-semibold rounded-full shadow-lg hover:bg-pastelPinkDark transition">
             Weekly
           </button>
         </Link>
@@ -34,13 +34,14 @@ function HomePage() {
 
       {/* Floating Plus Button */}
       <Link to="/add">
-        <button className="w-12 h-12 bg-purple-500 text-white text-2xl rounded-full shadow-md hover:bg-purple-600 flex items-center justify-center">
+        <button className="w-14 h-14 bg-pastelPinkDark text-white text-2xl rounded-full shadow-lg hover:bg-pastelPurple transition flex items-center justify-center">
           +
         </button>
       </Link>
     </div>
   );
 }
+
 
 function App() {
   return (

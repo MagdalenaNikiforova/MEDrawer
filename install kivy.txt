@@ -1,0 +1,6 @@
+install git bash
+open git bash with right click on the folder with the code
+create virtual env with py -m venv virt
+source virt/Scripts/activate
+python -m pip install "kivy[full]" kivy_examples
+write program, run it with python frontend.py (name of the program file)

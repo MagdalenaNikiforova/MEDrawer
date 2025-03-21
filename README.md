@@ -1,76 +1,70 @@
-# HackTUES 11 x MEDrawer !! 
-Единадесетото издание на емблематичния хакатон, от учиеници за ученици на ТУЕС 💓
-![alt text](README_img/image.png)
+# Getting Started with Create React App
 
-## Линк към презентация
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Available Scripts
 
-## По коя тема работим?
-Нашият екип избра да работи по втората подтема на хакатона:
-**Health** ❤️‍🩹
-![image](https://github.com/user-attachments/assets/5b56cba8-9d75-4331-bf2f-0839186b9960)
+In the project directory, you can run:
 
-### Защо здравето е най-ценното богатство?
-Bез него всичко останало губи своята стойност. Дори да имаме успех, пари, семейство и приятели, без добро здраве не можем да се насладим пълноценно на живота.
+### `npm start`
 
-## Какъв проблем решаваме?
-Икаме да помогнем на хората приемащи множетво медикаменти през цялото време.. Често се случва човек да забрави кое лекарство след кое да изпие, в коя част от деня да го приеме или по каква бройка да ги употребява.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Нашето решение
-Затова нашето решение е да създадем шкафче за лекарства с приложение, което ни дава възможност да си създаваме "аларми" за приемане на лекарство. 
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-### 1. Устройство за следене на пулс
-За да се използва пълноценно прилжението ссе попълват на ръка лекарствата, заедно с тяхното място в шкафа и симптомите предизвикващи нуждат аот приемане на такъ вид лекартсво. 
+### `npm test`
 
-Електрическа схема:
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Тестване в реално време:
+### `npm run build`
 
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### 2. База данни MongoDB
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### 3. Уеб сайт
-Позволява на потребителите да проследяват сънните им показатели и да управляват устройствата в своя дом за оптимално сънно околие.
+### `npm run eject`
 
-1. Index page
-![alt text](README_img/homepage.png)
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-Състои се от три бутона, като първия **Sleep** отива до статискита за съня на човека. Вторият бутон **Schedule** позволява настройването на работен график, докато последния бутон **Home** е предвиден за отдалечен достъп до устройствата в къщата.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-2. Sleep page
-![alt text](README_img/sleeppage.png)
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-Изважда статистика за съня на човека и неговата пълноценност. В бъдеща реализация на проекта е предвидено и препоръки към потребителя.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-3. Shedule page
-![alt text](README_img/schedulepage.png)
+## Learn More
 
-Възможност потребитя да си настой часовете, в които е на работа и не е редно да спи.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-4. Home page
-![alt text](README_img/homepage2.png)
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-Състои се от три бутона. Идеята е да се контролират отдалечено различни устройства в къщата на човека. Ние сме имплементирали включването и изключването на лампа, телевизор и спускането и вдигането на щори. Под бутоните се изписва и статуса.
+### Code Splitting
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-## Комуникационна схема
-![alt text](HTX.png)
+### Analyzing the Bundle Size
 
-## Използвани технологии
-![alt text](README_img/technologies.png)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-## Нашият екип
+### Making a Progressive Web App
 
-**stud i mraz, mraz i stud**
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-![alt text](README_img/team.png)
+### Advanced Configuration
 
-**Ментор**: Марин Петров
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-**Software**: Стефани Пенчева, 12Г, Випуск 2025
+### Deployment
 
-**Hardware**: Магдалена Никифорова, 12Г, Випуск 2025
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-**Hardware**: Елена Чернева, 12Г, Випуск 2025
+### `npm run build` fails to minify
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

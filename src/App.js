@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 function App() {
   const [text, setText] = useState("");
-  const esp32Ip = "http://192.168.114.97";  // Replace with your ESP32 IP address
+  const esp32Ip = "http://192.168.0.31";  // Replace with your ESP32 IP address
 
   // Function to handle text display
   const handleButtonClick = () => {

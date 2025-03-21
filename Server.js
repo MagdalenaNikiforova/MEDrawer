@@ -7,8 +7,7 @@ app.use(cors());
 app.use(express.json()); // Allows JSON data to be sent from frontend
 
 // Connect to MongoDB
-mongoose
-  .connect("mongodb://127.0.0.1:27017/reactDB", {
+mongoose.connect("mongodb://127.0.0.1:27017/reactDB", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })

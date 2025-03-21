@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+HackTUES 11 x MEDrawer !!
+Единадесетото издание на емблематичния хакатон, от учиеници за ученици на ТУЕС 💓
+![image](https://github.com/user-attachments/assets/c5d06abc-1f9b-4b9d-a303-0b356c4ee6e4)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Линк към презентация
+https://www.canva.com/design/DAGiTq1XxzE/C7N1spgbX_LumlGw_k_Fng/edit?utm_content=DAGiTq1XxzE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
-In the project directory, you can run:
+[stud i mraz, mraz i stud.pdf](https://github.com/user-attachments/files/19398436/stud.i.mraz.mraz.i.stud.pdf)
 
-### `npm start`
+## По коя тема работим?
+Нашият екип избра да работи по втората подтема на хакатона: **Health** ❤️‍🩹 image
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![image](https://github.com/user-attachments/assets/658ee0fc-86a2-4afb-b34d-d77cc5457385)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+###Защо здравето е най-ценното богатство?
+Bез него всичко останало губи своята стойност. Дори да имаме успех, пари, семейство и приятели, без добро здраве не можем да се насладим пълноценно на живота.
 
-### `npm test`
+## Какъв проблем решаваме?
+Икаме да помогнем на хората приемащи огромни количества лекарства постоянно.. Често се случва човек да забрави кое лекарство след кое да изпие, в коя част от деня да го приеме или в каква бройка да ги употребява.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Нашето решения
+Затова нашето решение е да създадем шкафче за лекарства с приложение, което ни дава възможност да си създаваме "аларми" за приемане на лекарство.
 
-### `npm run build`
+### 1. Шкаф
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 2. База данни MongoDB
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 3. Уеб сайт
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Нашият екип
+stud i mraz, mraz i stud
 
-### `npm run eject`
+Ментор: Марин Петров (Благодарим Виии!!)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Software: Стефани Пенчева, 12Г, Випуск 2025
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Hardware: Магдалена Никифорова, 12Г, Випуск 2025
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Hardware: Елена Чернева, 12Г, Випуск 2025

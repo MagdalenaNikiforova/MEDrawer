@@ -18,7 +18,7 @@ function Home() {
           <button type="button" onClick={() => navigate("/daily")} class="btn btn-primary btn-lg px-4 me-md-2"><i class="fa-regular fa-calendar-days"></i> Daily</button>
           <button type="button" onClick={() => navigate("/weekly")} class="btn btn-outline-secondary btn-lg px-4"><i class="fa-regular fa-calendar-days"></i> Weekly</button>
 
-          <button className="floating-btn btn-left btn btn-primary" onClick={() => navigate("/add-schedule")}>
+          <button className="floating-btn btn-left btn btn-primary" onClick={() => navigate("/add-calendar")}>
                 <i class="fa-regular fa-calendar"></i>
             </button>
             <button className="floating-btn btn btn-right btn-success" onClick={() => navigate("/add-medicine")}>

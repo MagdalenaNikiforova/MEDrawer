@@ -7,16 +7,6 @@ function AddMedicine() {
   const [description, setDescription] = useState("");
   const navigate = useNavigate();
 
-  /*const handleSubmit = (e) => {
-    e.preventDefault();
-    // Here, you would typically handle sending the data to the backend.
-    console.log("Medicine Added:", { medicineName, dosage, description });
-
-    // For now, just show the success popup
-    alert("Medicine added successfully!");
-  };*/
-
-
   const handleSubmit = async (e) => {
     e.preventDefault(); // Prevent the page from refreshing on form submit
   
@@ -50,7 +40,6 @@ function AddMedicine() {
       alert('An error occurred while adding the medicine.');
     }
   };
-
 
   return (
     <div className="popup">

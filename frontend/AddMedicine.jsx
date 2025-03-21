@@ -71,28 +71,28 @@ const [selectedSymptom, setSelectedSymptom ] = useState();
       alert('An error occurred while adding the medicine.');
     }
 
-    try {
-      // Send schedule data to backend via POST request
-      const response = await fetch('http://localhost:5000/api/add-schedule', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json', // Tell the server we're sending JSON data
-        },
-        body: JSON.stringify(timeMedicine), // Convert JS object to JSON string
-      });
+    // try {
+    //   // Send schedule data to backend via POST request
+    //   const response = await fetch('http://localhost:5000/api/add-calendar', {
+    //     method: 'POST',
+    //     headers: {
+    //       'Content-Type': 'application/json', // Tell the server we're sending JSON data
+    //     },
+    //     body: JSON.stringify(timeMedicine), // Convert JS object to JSON string
+    //   });
 
-      // Check if response is successful
-      if (response.ok) {
-        const result = await response.json(); // Parse the JSON response from the server
-        console.log('Schedule Added:', result);
-        alert('Schedule set successfully!');
-      } else {
-        throw new Error('Failed to set schedule');
-      }
-    } catch (error) {
-      console.error('Error setting schedule:', error);
-      alert('An error occurred while setting the schedule.');
-    }
+    //   // Check if response is successful
+    //   if (response.ok) {
+    //     const result = await response.json(); // Parse the JSON response from the server
+    //     console.log('Schedule Added:', result);
+    //     alert('Schedule set successfully!');
+    //   } else {
+    //     throw new Error('Failed to set schedule');
+    //   }
+    // } catch (error) {
+    //   console.error('Error setting schedule:', error);
+    //   alert('An error occurred while setting the schedule.');
+    // }
   };
 
   
